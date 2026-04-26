@@ -1,0 +1,14 @@
+{
+  "name": "@packages/database",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "generate": "prisma generate",
+    "migrate": "prisma migrate dev",
+    "lint": "echo 'lint pending'",
+    "typecheck": "echo 'typecheck pending'"
+  },
+  "devDependencies": {
+    "prisma": "^5.20.0"
+  }
+}
